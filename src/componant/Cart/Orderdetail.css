@@ -1,0 +1,39 @@
+.allinfos{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-left: 80px;
+    row-gap: 34px;
+    border-right: 1px solid rgba(0,0,0,0.634);
+    padding-right: 5px;
+}
+.items {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+  
+}
+
+.shipinginformation{
+    text-align: unset;
+    row-gap: 13px;
+}
+.cartitems{
+    text-align: unset;
+border-top: 1px solid rgba(0,0,0,0.174);
+column-gap: 23px;
+}
+.paymentinfo .amt{
+    display: inline-block;
+}
+.paymentinfo p{
+    padding-top: 13px;
+}
+.orderstauts p{
+    padding-top: 13px;
+}
+@media screen and (max-width:320px) {
+    .items{
+        margin-right: 92px;
+    }
+}

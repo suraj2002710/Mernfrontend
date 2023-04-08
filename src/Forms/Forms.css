@@ -1,0 +1,85 @@
+.MuiBox-root form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    margin-top: 40px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.MuiBox-root form input{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.MuiBox-root form button{
+    font-size: 20px;
+    font-family: cursive;
+    width:150px;
+    cursor: pointer;
+}
+.other_forms { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;   
+}
+.other_forms button{
+    cursor: pointer;
+    font-size: 15px;
+    font-family: cursive;
+    width:150px;
+}
+#check{
+    display: none;
+}
+.MuiBox-root form .check_lable{
+    position: absolute;
+    padding-top: 8px;
+    right: 90px;
+    cursor: pointer;
+}
+ .MuiBox-root form .check_lble{
+    position: absolute;
+   top:54%;
+    right: 23%;
+    cursor: pointer;
+    padding-right: 4px;
+}
+.img_container {
+   
+    display: flex;
+    align-items: center;
+}
+.image {
+    width: 130px;
+    height: 100%;
+}
+.img_container img{
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+.img_container  label{
+    margin-left: 20px;
+}
+.loginHeading{
+    text-align: center;
+    font-size: 25px;
+}
+.btn{
+    font-size: 20px;
+    font-family: cursive;
+    width:150px;
+    border: none;
+    outline: none;
+    padding-top: 3px;   
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+#file{
+    display: none;
+}

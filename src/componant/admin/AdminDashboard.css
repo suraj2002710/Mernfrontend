@@ -1,0 +1,33 @@
+.chart .linechart{
+    width: 600px;
+    margin-left: 250px;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-top: 50px;
+}
+.dashbord{
+    display: flex;
+}
+
+.chart{
+    display: flex;
+    margin-top: 12px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.rol{
+    width: 250px;
+    height: 180px;
+    background-color: rgb(52, 52, 231);
+    color:white;
+    margin-left:19px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 25px;
+}
+.rol p{
+    margin-top: 18px;
+}

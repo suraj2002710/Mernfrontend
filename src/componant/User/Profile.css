@@ -1,0 +1,99 @@
+.profile-container{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.imgcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+    row-gap: 23px;
+}
+.imgcontainer h2{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.imgcontainer button{
+    /* margin-top: 18px; */
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 300px;
+    border-radius:10px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    background-color:tomato;
+}
+
+.imgcontainer button:hover{
+    background-color:rgb(194, 58, 40);
+transition: all 0.5s;
+}
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top: 20px;
+}
+.imgcontainer div{
+    width: 300px;
+    height: 240px;
+}
+.imgcontainer img{
+    width: 100%;
+    height: 100%;
+}
+.userinfo p{
+    font-size: 20px;
+}
+
+.userinfo button{
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 250px;
+    border-radius:10px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    background-color:tomato;   
+}
+.userinfo button:hover{
+    background-color:rgb(194, 58, 40);
+transition: all 0.5s;   
+}
+@media screen and (max-width:700px) {
+    .imgcontainer div{
+        width: 150px;
+        height: 120px;
+    }
+    .userinfo button{
+        width: 150px;
+    }
+    .imgcontainer button{
+        width: 150px;
+    }
+    .userinfo{
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .imgcontainer div{
+        width: 120px;
+        height: 90px;
+    }
+    
+    .userinfo button{
+        width: 120px;
+    }
+    .imgcontainer button{
+        width: 120px;
+    }
+}

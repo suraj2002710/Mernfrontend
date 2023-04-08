@@ -1,0 +1,270 @@
+.productdetails div img {
+    /* margin: 5px; */
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+.productdetails {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(202, 208, 238);
+    margin-top: 25px;}
+.css-1l7c0cy{
+    position: relative !important;
+}
+#ratings{
+    margin-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+}
+#ratings span{
+    font-size: 1vmax;
+    color: rgba(54, 54,54, 0.582);
+    font-family: cursive;
+}
+.product_info {
+    margin-left: 20px;
+}
+.product_info #prod-1  {
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+}
+.product_info #prod-1 p{
+    text-transform: capitalize;
+}
+.product_info #prod-1 #p-id{
+    font-size: 15px;
+}
+
+#addtocart input{
+    outline: none;
+    padding: 0.5vmax;
+    border: none;
+    font-size: 1.2vmax;
+    text-align: center;
+    width: 35px;
+}
+
+#addtocart button{
+    outline: none;
+    color: white;
+    font-size: 1.2vmax;
+    padding: 0.5vmax;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(79, 79, 219);
+    width: 25px;
+}
+.prod_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtocart-1{
+    display: flex;
+    margin-top: 20px;
+}
+.addtocart-1 .btn{
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    background-color:  rgb(68, 68, 245);;
+    border-radius: 20px;
+    font-size: 1vmax;
+    font-family: "Roboto";
+    padding: 0.6vmax 2vmax;
+    margin: 0px 10px;
+    outline: none;
+    width: 100px;
+}
+.addtocart-1 button:hover{
+    background-color: rgb(107,68,45);
+    transition: all 0.5s;
+}
+.addtocart-1 input{
+    background-color: rgb(248, 205, 205);
+}
+.redclass{
+    color: red;
+}
+.greenclass{
+    color: green;
+}
+
+#stock{
+    margin-top: 20px;
+    font-size: 25px;
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#stock p{
+color: rgba(0, 0, 0, 0.534);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#price{
+    margin-top: 20px;
+color: rgba(0, 0, 0, 0.534);
+font-size: 1.2vmax;
+}
+
+.submitreview{
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    background-color:  rgb(68, 68, 245);;
+    border-radius: 20px;
+    font-size: 1vmax;
+    font-family: "Roboto";
+    padding: 0.6vmax 2vmax;
+    margin: 1vmax 0px;
+    outline: none;   
+    font-family: sans-serif;
+}
+
+.submitreview:hover{
+    background-color: rgb(107,68,45);
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.description{
+    font-size: 20px;
+    margin: 1vmax 0px;
+    color: rgba(0, 0, 0, 0.897);
+    font-family: sans-serif;
+}
+.description p{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.534);
+}
+.reviewheading{
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 1.5px solid rgba(21,21, 21, 0.5);
+    width: 20vmax;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 5vmax auto;
+    padding: 1vmax;
+    color: rgb(0,0,0,0.7);
+}
+    
+
+@media screen and (max-width:600px){
+    .productdetails{
+        flex-direction: column;
+        height: unset;
+    }
+    #prod-1 h3{
+        font-size: 25px;
+    }
+    #price p{
+        text-align: center;
+        font-size: 20px;
+        color: black;
+    }
+    .productdetails .product_info{
+        align-items: center;
+    }
+   .product_info #prod-1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .product_info #prod-1 #p-id{
+        font-size: 20px;
+    }
+    .product_info #ratings{
+        padding: 10px;
+        justify-content: center;
+    }
+    .product_info #ratings span{
+        font-size: 2.5vmax;
+    }
+    .product_info #price{
+        text-align: center;
+        font-size: 40px;
+    }    
+    .product_info .addtocart-1{
+        flex-direction: column;
+        align-items: center;
+        font-size: 23px;
+    }
+    .product_info .addtocart-1 .btn{
+        margin-top: 23px ;
+        width: 180px;
+        font-size: 28px;
+    }
+
+    .product_info #addtocart button{
+        padding: 1.5vmax;
+        font-size: 25px;
+        width: 4vmax;
+    }
+
+    .product_info #addtocart input{
+        padding: 1.5vmax;
+        font-size: 25px;
+        width: 4vmax;
+    }
+    .product_info #stock{
+        justify-content: center;
+        font-size: 27px;
+    }
+    .product_info .description{
+        text-align: center;
+        font-size: 20px;
+    }
+    .product_info .description p{
+        font-size: 22px;
+        text-align: center;
+    }
+    .submitreview{
+        font-family: sans-serif;
+        font-size: 23px;
+        margin-left: 90px;
+    }
+    .prod_img{
+        display: flex;
+        justify-content: center;
+    }
+}
+.reviewcards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.reviewcard{
+    margin-left: 15px;
+}
+.reviewcard #review_img{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.reviewcard .review_ratings {
+    margin-top: 8px;
+}
+.reviewcard p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.submitdialog{
+    display: flex;
+    flex-direction: column;
+}
+.submitdialogtextarea{
+    font-family: "Roboto";
+    font-size:16px;
+    padding-left: 13px;
+    color: rgba(0, 0, 0, 0.9);
+    padding-right: 13px;
+}

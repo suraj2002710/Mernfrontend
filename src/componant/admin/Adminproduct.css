@@ -1,0 +1,14 @@
+.sideplustable{
+    display: flex;
+}
+.myorderpageg{
+    width: 100%;
+    margin-top: 50px;
+}
+.prodtable{
+    position: relative;
+}
+.prodtbl{
+    position: absolute;
+
+}

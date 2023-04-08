@@ -1,0 +1,78 @@
+.shipinginfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 23px;
+    margin-top:15px;
+    /* display: none; */
+}
+.shipinginfo input{
+    width: 380px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    position: absolute;
+    margin: 8px;
+}
+.css-ahj2mt-MuiTypography-root {
+    margin-top: 30px !important;
+    padding-left: 66px;
+}
+.submit button{
+    width: 180px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(73, 73, 221);
+    border-radius: 30px;
+    color: white;
+}
+.submit button:hover{
+    background-color:blue;
+    transition: all 0.5s;
+}
+.shipinfo_displaynone{
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    .css-8atqhb{
+        margin-top: 15px;
+        margin-left: -29px;
+        font-size: 12px;
+    }
+    .shipinginfo{
+        margin-top: 25px;
+        row-gap: 6px;
+    }
+    .shipinginfo input{
+        width: 300px;
+        padding-bottom: 12px;
+    }
+
+}
+@media screen and (max-width:350px) {
+    .css-8atqhb{
+        margin-top: 15px;
+        margin-left: -59px;
+        font-size: 12px;
+    }
+    .css-ahj2mt-MuiTypography-root {
+        font-size: 10px;
+    }
+    .shipinginfo{
+        margin-top: 32px;
+        row-gap: 6px;
+    }
+    .shipinginfo input{
+        width: 300px;
+        padding-bottom: 12px;
+    }
+
+}
